@@ -5,7 +5,7 @@ import java.util.Date;
 import entities.Order;
 import entities.enums.OrderStatus;
 
-public class appEnum {
+public class appOrder {
 
 	public static void main(String[] args) {
 
