@@ -1,24 +1,20 @@
 package entities;
 
-public class Product {
+public class Products {
 
 	private String name;
 	private Double price;
 
-//Constructors
-
-	public Product() {
+	public Products() {
 
 	}
 
-	public Product(String name, Double price) {
-		super();
+	public Products(String name, Double price) {
+
 		this.name = name;
 		this.price = price;
 	}
 
-//Getters & Setters
-	
 	public String getName() {
 		return name;
 	}
@@ -30,6 +26,5 @@ public class Product {
 	public Double getPrice() {
 		return price;
 	}
-
 
 }

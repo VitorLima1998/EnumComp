@@ -9,20 +9,17 @@ public class Order {
 	private Integer id;
 	private Date moment;
 	private OrderStatus status;
-
-//Constructors 
 	
 	public Order() {
 		
 	}
-
+	
 	public Order(Integer id, Date moment, OrderStatus status) {
+	
 		this.id = id;
 		this.moment = moment;
 		this.status = status;
 	}
-
-//Getters & Setters
 
 	public Integer getId() {
 		return id;
@@ -48,15 +45,14 @@ public class Order {
 		this.status = status;
 	}
 
-//toString
-	
 	@Override
 	public String toString() {
-		return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+		return "Order [id=" + id 
+				+ ", moment=" 
+				+ moment + ", status=" 
+				+ status + "]";
 	}
 	
+		
 
-	
-	
-	
 }
